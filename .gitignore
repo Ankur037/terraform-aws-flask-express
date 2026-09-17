@@ -19,3 +19,5 @@ venv/
 # Editor
 .vscode/
 *.pem
+terraform/**/terraform-key
+terraform/**/*.pub
