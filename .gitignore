@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Editor
+.vscode/
+*.pem
